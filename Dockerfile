@@ -2,5 +2,5 @@
 FROM nginx
 
 ## Copia el archivo index.html para dir raiz de nginx
-COPY index.html /usr/share/nginx/html
+COPY tarea6/index.html /usr/share/nginx/html
 
